@@ -30,8 +30,6 @@ With the rapid adoption of rooftop solar in Queensland, the National Electricity
 
 ## 🚀 How to Run the Code
 1. Clone this repository to your local machine.
-2. Download the June 2026 data file from AEMO and rename it to `PRICE_AND_DEMAND_202606_QLD1.csv`.
-3. Run the interactive script (`main.py` or `.ipynb` notebook):
-```python
-# To view the lowest price hour
-print(f"The lowest-price hours is: {negative_price.head(1).index[0]}")
+2. Download NEM Price and Demand data file from AEMO and upload into your local machine.
+3. Run the interactive script (`main.py` or `.ipynb` notebook) and follow the instruction
+4. You expect to see some major information of the data and 2 illustration windows pop up
